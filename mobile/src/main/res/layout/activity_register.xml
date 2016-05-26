@@ -32,7 +32,8 @@
                 android:textAlignment="center"
                 android:hint="Venmo name here"
                 android:layout_below="@+id/logo"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:singleLine = "true"/>
             <EditText
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
@@ -42,7 +43,8 @@
                 android:layout_marginTop="20dp"
                 android:textAlignment="center"
                 android:password="true"
-                android:hint="Password"/>
+                android:hint="Password"
+                android:singleLine = "true"/>
             <EditText
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
@@ -52,7 +54,8 @@
                 android:layout_marginTop="20dp"
                 android:textAlignment="center"
                 android:password="true"
-                android:hint="Confirm Password"/>
+                android:hint="Confirm Password"
+                android:singleLine = "true"/>
 
             <EditText
                 android:layout_width="200dp"
@@ -62,7 +65,8 @@
                 android:layout_below="@id/pwConfirmEditText"
                 android:layout_marginTop="20dp"
                 android:textAlignment="center"
-                android:hint="First name"/>
+                android:hint="First name"
+                android:singleLine = "true"/>
 
             <EditText
                 android:layout_width="200dp"
@@ -74,7 +78,8 @@
                 android:textAlignment="center"
                 android:maxLength="10"
                 android:phoneNumber="true"
-                android:hint="Phone"/>
+                android:hint="Phone"
+                android:singleLine = "true"/>
 
 
             <TextView
