@@ -15,7 +15,7 @@
         <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
         <activity
-            android:name=".SignUpActvity"
+            android:name=".SignUpActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
 
@@ -24,10 +24,6 @@
             android:name=".RegisterActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateVisible|adjustPan">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
         </activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -44,7 +40,10 @@
         <activity
             android:name=".CashDashActivity"
             android:label="@string/title_activity_cash_dash">
-
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
