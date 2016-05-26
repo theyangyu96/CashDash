@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yang.cashdash.SignUpActvitity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logo"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/cashdash_logo" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/VenmoEditText"
+        android:textAlignment="center"
+        android:hint="Venmo name here"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/pwEditText"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/VenmoEditText"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:hint="Password"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Error message"
+        android:textColor="#B33A3A"
+        android:id="@+id/error_text"
+        android:layout_below="@+id/pwEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:weightSum="1"
+        android:id="@+id/linearLayout">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:id="@+id/log_in_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="#8BC34A"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom"
+        android:layout_weight=".5"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="#8BC34A"
+        android:textColor="#FFFFFF"
+        android:text="Register"
+        android:id="@+id/register_button"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom"
+        android:layout_weight="0.5"
+        />
+    </LinearLayout>
+</RelativeLayout>

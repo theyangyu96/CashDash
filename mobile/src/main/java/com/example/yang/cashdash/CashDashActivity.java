@@ -51,6 +51,11 @@ public class CashDashActivity extends FragmentActivity implements OnMapReadyCall
             // for ActivityCompat#requestPermissions for more details.
             return;
         }
+//        final LatLng PERTH = new LatLng(-31.90, 115.86);
+//        Marker perth = mMap.addMarker(new MarkerOptions()
+//                .position(PERTH)
+//                .title("Yang")
+//                .snippet("I need $5"));
         mMap.setMyLocationEnabled(true);
     }
 }
