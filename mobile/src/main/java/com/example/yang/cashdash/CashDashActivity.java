@@ -26,6 +26,7 @@ public class CashDashActivity extends FragmentActivity implements OnMapReadyCall
     private int mode = 0; //0 = cash, 1 = dash
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cash_dash);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.

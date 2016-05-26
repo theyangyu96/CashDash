@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Cash Dash</string>
     <string name="title_activity_cash_dash">Cash Dash</string>
+    <string name="google_app_id">crested-century-132321</string>
 </resources>
