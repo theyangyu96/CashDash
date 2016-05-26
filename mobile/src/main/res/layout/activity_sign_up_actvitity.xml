@@ -14,7 +14,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:id="@+id/logo"
-        android:layout_alignParentTop="true" />
+        android:layout_alignParentTop="true"
+        android:src="@drawable/cashdash_logo" />
 
     <EditText
         android:layout_width="200dp"
@@ -22,16 +23,16 @@
         android:id="@+id/editText"
         android:textAlignment="center"
         android:hint="Venmo name here"
-        android:layout_below="@+id/imageView"
+        android:layout_below="@+id/logo"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="188dp" />
+        android:layout_marginTop="50dp" />
 
     <Button
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="Get Started"
         android:id="@+id/getStarted"
-        android:background="#b3ee95"
+        android:background="#8BC34A"
         android:textColor="#FFFFFF"
         android:layout_below="@+id/editText"
         android:layout_centerHorizontal="true"
