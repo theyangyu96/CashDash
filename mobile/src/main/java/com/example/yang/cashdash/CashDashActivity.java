@@ -23,7 +23,13 @@ public class CashDashActivity extends FragmentActivity implements OnMapReadyCall
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-    }
+        /*Parse.initialize(new Parse.Configuration.Builder(myContext)
+                .applicationId("YOUR_APP_ID")
+                .server("http://YOUR_PARSE_SERVER:1337/parse")
+
+        .build()
+        );
+*/    }
 
 
     /**
