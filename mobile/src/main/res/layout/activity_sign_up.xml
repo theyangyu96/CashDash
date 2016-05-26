@@ -21,7 +21,8 @@
         android:hint="Venmo name here"
         android:layout_below="@+id/logo"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp" />
+        android:layout_marginTop="50dp"
+        android:singleLine = "true"/>
     <EditText
         android:layout_width="200dp"
         android:layout_height="wrap_content"
@@ -30,7 +31,8 @@
         android:layout_below="@id/VenmoEditText"
         android:layout_marginTop="20dp"
         android:textAlignment="center"
-        android:hint="Password"/>
+        android:hint="Password"
+        android:singleLine = "true"/>
 
 
     <TextView
