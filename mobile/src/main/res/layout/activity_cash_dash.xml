@@ -17,7 +17,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginBottom="15dp"
         android:layout_above="@+id/map"
-        android:src="@drawable/cashdash_logo"
+        android:src="@drawable/cashdash_logo1"
         android:layout_gravity="center_horizontal" />
     <LinearLayout
         android:layout_width="match_parent"
@@ -57,6 +57,8 @@
     </LinearLayout>
 <RelativeLayout
     android:layout_width="match_parent"
+    android:id="@+id/map_container"
+    android:clickable="true"
     android:layout_height="425dp"
     android:layout_weight="7">
 
@@ -98,16 +100,31 @@
             android:onClick="hide"
             style="?android:attr/borderlessButtonStyle"
             android:textColor="#FFFFFF"
+            android:layout_gravity="bottom|center"
             android:id="@+id/SOS_button"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Requesting..."
+            android:layout_weight="2"
+            android:background="#B33A3A"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="bottom|center"
+            android:visibility="gone"
+            android:id="@+id/requesting_button"
             />
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight=".5"
             android:id="@+id/amount_EditText"
+            android:singleLine="true"
             android:hint="$ Amount"
             android:gravity="center"
             android:numeric="integer"
+            android:layout_gravity="bottom|center"
             android:visibility="gone"
             />
         <Button
@@ -115,9 +132,10 @@
             android:layout_height="match_parent"
             android:text="SOS"
             android:layout_weight=".5"
-            android:background="#8BC34A"
+            android:background="@color/colorPrimaryDark"
             style="?android:attr/borderlessButtonStyle"
             android:textColor="#FFFFFF"
+            android:layout_gravity="bottom|center"
             android:id="@+id/confirm_SOS_button"
             android:visibility="gone"
             />

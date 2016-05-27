@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Cash Dash</string>
     <string name="title_activity_cash_dash">Cash Dash</string>
+    <string name="Nessie_API_Key">d9fb5d3d139a77099766a8e08d44f8e5</string>
 </resources>

@@ -31,4 +31,6 @@ dependencies {
     compile 'com.google.maps:google-maps-services:0.1.7'
     compile 'com.loopj.android:android-async-http:1.4.9'
     compile 'com.android.support:support-v4:23.0.1'
+    compile 'com.android.support:support-v4:23.0.1'
+    compile 'com.google.android.gms:play-services-basement:8.1.0'
 }
